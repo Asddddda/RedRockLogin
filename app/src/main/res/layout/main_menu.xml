@@ -1,0 +1,47 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/account"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="用户名登陆"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/xinlang"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="新浪微博"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tengxun"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="腾讯微博"/>
+
+    <Button
+        android:id="@+id/sign_up_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="注册" />
+
+    <ImageView
+        android:id="@+id/image_view_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:background="@drawable/login_bg" />
+
+
+</LinearLayout>

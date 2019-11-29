@@ -1,0 +1,48 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <Button
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/back_u"
+        android:text="返回"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/username_u"
+        android:maxLines="1"
+        android:layout_gravity="center_vertical"
+        android:hint="用户名"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/password_u"
+        android:maxLines="1"
+        android:hint="密码"/>
+
+    <Button
+        android:id="@+id/sign_up_u"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="150dp"
+        android:layout_marginRight="150dp"
+        android:text="登陆" />
+
+    <ImageView
+        android:id="@+id/image_view_u"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_register"
+        android:scaleType="center" />
+
+
+</LinearLayout>
